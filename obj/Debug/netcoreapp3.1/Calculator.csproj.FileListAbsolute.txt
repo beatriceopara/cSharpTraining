@@ -1,0 +1,11 @@
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+C:\Users\Fujitsu\Documents\TechSwitch\Training\C#\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
