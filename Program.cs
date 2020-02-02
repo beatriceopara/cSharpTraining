@@ -13,36 +13,55 @@ namespace Calculator
             Console.Write("Please choose a operator: +, -, *, /: ");
             string op = Console.ReadLine();
 
-            Console.Write("Enter a number: ");
-            string myFirstNum = Console.ReadLine();
-            int myInteger = int.Parse(myFirstNum);
-            //int.Parse is a method that converts strings to integers
+            //declare line to caluclate more than two numbers
+            Console.Write("How many numbers do you want to " + op + " ? ");
+            int counter = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Please enter another number: ");
-            string mySecondNum = Console.ReadLine();
-            int mySecondInteger = int.Parse(mySecondNum);
+            //created empty array to store numbers
+            int [] nums =  new int[counter];
+            //for loop to read nums and put into an array
+            for (int i = 0; i < counter; i++)
+            {
+                Console.Write("Please enter number " + (i  + 1)  +": ");
+                nums[i] = int.Parse(Console.ReadLine());
+            }
+            
+            // Console.Write("Enter a number: ");
+            // string myFirstNum = Console.ReadLine();
+            // int myInteger = int.Parse(myFirstNum);
+            // //int.Parse is a method that converts strings to integers
+
+            // Console.WriteLine("Please enter another number: ");
+            // string mySecondNum = Console.ReadLine();
+            // int mySecondInteger = int.Parse(mySecondNum);
 
             // Console.WriteLine(myInteger * mySecondInteger);
 
-            int answer = 0;
+            //for loop to go through nums and calculate them altogether
 
-            if(op == "+") {
-                answer = myInteger + mySecondInteger;
-            }
-            else if (op == "-") {
-                answer = myInteger - mySecondInteger;
-            }
+            int answer = nums[0];
 
-            else if (op == "*") {
-                answer = myInteger * mySecondInteger;
-            }
+            for (int i = 1; i < counter; i++)
+            {
+                if(op == "+") {
+                    answer = answer + answer;
+                }
+                else if (op == "-") {
+                    answer = answer - answer;
+                }
 
-            else if (op == "/") {
-                answer = myInteger / mySecondInteger;
-            }
+                else if (op == "*") {
+                    answer = answer * answer;
+                }
 
-            else {
-                Console.Write("Invalid operator. Please try again");
+                else if (op == "/") {
+                    answer = answer / answer;
+                }
+
+                else {
+                    Console.Write("Invalid operator. Please try again");
+                } 
+
             }
 
             Console.WriteLine("The answer is: " + answer);
